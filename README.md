@@ -35,7 +35,7 @@ Has the necessary .txt files that are used to extract embeddings
 - I haven't changed any of the default settings of their evaluation suite while conducting these evaluations, although I toyed with fewshot (0 shot vs 5 shot experiments) and length normalization settings
 - If you want to reproduce the numbers, I recommend cloning lm_eval from https://github.com/EleutherAI/lm-evaluation-harness.git, and following their instructions to install dependencies. 
 - For example, xstorycloze_0shot_unnormalized results can be derived from the following command:
-  '''
+  ```
   lm_eval --model hf \
     --model_args pretrained=meta-llama/Llama-3.1-8B, \
     --tasks xstorycloze_ar \
@@ -43,7 +43,7 @@ Has the necessary .txt files that are used to extract embeddings
     --batch_size 1 \
     --log_samples \
     --output_path '<insert_output_path>'
-  '''
+  ```
   
   
  
