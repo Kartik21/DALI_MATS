@@ -13,9 +13,7 @@ Since not all folders are relevant to this project (and will be refactored short
 
 ### data
 Has the necessary .txt files that are used to extract embeddings
-- belebele_dali/ : Has .txt files associated with 82 languages and 4 options for each
-- belebele_mexa/: Has .txt files associated with 82 languages
-- flores_200_dataset/devtest: Has ~1000 sentences for each language in the flores dataset (not a .txt file)
+
 - xcopa_dali/: Has 500 sentences (2 options) for 10 languages including the corresponding English translation
 - xstorycloze_dali: Has 1511 sentences (2 options) for 10 languages + English
 
